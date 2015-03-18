@@ -1,0 +1,225 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500);
+body{
+    font-family: 'Roboto', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-size: 13px;
+}
+
+h1{
+    margin-bottom: 25px;
+    font-size: 20pt;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+
+h2{
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+h3{
+    text-transform: uppercase;
+    font-size: 19px;
+    font-weight: 300;
+}
+
+.logo{
+    width: 200px;
+    margin-top: -8px;
+    margin-left: -20px;
+}
+
+header{
+    /*#00aeef*/
+
+    height: 100px;
+    /*background-color: white;*/
+    /*color:black;*/
+    /*border-bottom: 5px solid rgba(255, 255, 255, .5);*/
+    padding-top: 15px;
+}
+.slider{
+    text-align: center;
+    margin-top: -100px;
+}
+
+.fixed{
+    position: fixed;
+    /*background-color: white;*/
+    color: black;
+    background-color: rgba(255, 255, 255, 0.9);
+    top: 0;
+    left: 0;
+    width: 100%;
+    border-bottom: 1px solid #e1e1e1;
+    height: 50px;
+    z-index: 1;
+margin-bottom: 100px;
+}
+.fixed .menuPrincipal{
+    margin-top: 0px;
+}
+.fixed a li{
+    color:#00aeef;
+}
+.fixed .logo{
+    width: 100px;
+    margin-top:-18px;
+}
+
+.fixed main{
+    margin-top: 370px;
+}
+
+
+
+.menuPrincipal{
+    list-style-type: none;
+    margin-top: 20px;
+    float: right;
+}
+
+.menuPrincipal li{
+    display: inline;
+    /*margin-right: 25px;*/
+    text-transform: uppercase;
+    font-size: 17px;
+    font-weight: 500;
+
+}
+
+.menuPrincipal li::before{
+    padding: 10px;
+    content: '|';
+}
+.menuPrincipal li:first-of-type:before{
+    content: ' ' ;
+}
+
+
+
+.menuPrincipal a{
+    color:white;
+}
+.menuPrincipal a:hover{
+    color:white;
+    text-decoration: none;
+}
+main{
+    min-height: 600px;
+    font-size: 17px;
+    font-weight: 300;
+}
+
+.case{
+    height: 200px;
+    background-color: #808080;
+    padding: 25px;
+    color: white;
+    margin: 45px;
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+.box{
+/*    padding-left: 40px;
+    padding-right: 40px;*/
+}
+.service1{
+    margin-top:60px;
+}
+.service2{
+    margin-top: 60px;
+    margin-bottom: 80px;
+}
+
+hr {
+  clear: both; 
+  float: none; 
+  width: 100%; 
+  height: 1px;
+  margin: 1.4em 0;
+  border: none; 
+  background: #ddd;
+  background-image: -webkit-gradient(
+      linear,
+      left bottom,
+      right bottom,
+      color-stop(0, rgb(255,255,255)),
+      color-stop(0.1, rgb(221,221,221)),
+      color-stop(0.9, rgb(221,221,221)),
+      color-stop(1, rgb(255,255,255))
+  );
+  background-image: -moz-linear-gradient(
+      left center,
+      rgb(255,255,255) 0%,
+      rgb(221,221,221) 10%,
+      rgb(221,221,221) 90%,
+      rgb(255,255,255) 100%
+  );
+}
+
+.services-accueil li a {
+    padding-left: 19px;
+}
+
+.services-accueil li a:before {
+    content: url(images/puces-liens-directs.png);
+    margin-right: 7px;
+}
+
+i{
+    margin-right: 10px;
+}
+.content{
+    padding-right: 50px;
+    margin-top: 30px;
+    margin-bottom:60px;
+
+
+}
+
+.page-right{
+    background-color: #eee;
+    padding-left:25px;
+    padding-right: 25px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-top: 30px;
+
+    margin-bottom:30px;
+
+
+}
+
+.page-right h2{
+    margin-top: 10px;
+}
+
+
+
+footer{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    height: 120px;
+    background-color: #808080;
+    color:white;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+footer a{
+    color:white;
+}
+
+footer a:hover{
+    color: white;
+    text-decoration: none;
+}
+.fa-fw{
+    font-size: 90px !important;
+    padding: 10px;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    display: block !important;
+}
